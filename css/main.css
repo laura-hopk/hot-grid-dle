@@ -18,8 +18,27 @@ html {
 
 body {
   margin: 0;
+  line-height: 1.3;
+  font-family: "Roboto Slab", serif;
 }
 
 figure {
   margin: 0;
+  position: relative;
+}
+
+figcaption {
+  max-width: 15em;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  background-color: rgba(0, 0, 0, .5);
+  padding: 1rem;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
 }
